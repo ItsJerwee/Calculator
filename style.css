@@ -45,3 +45,9 @@ input{
     margin: 27px;
     font-style: italic;
 }
+
+@media (max-height: 400px) {
+    .creator{
+        margin: 70px;
+    }
+}

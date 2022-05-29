@@ -5,12 +5,13 @@ body{
 .Calculator{
     margin: auto ;
     width: 335px;
-    height: 385px;
+    height: 390px;
     border-radius: 25px;
-    padding: 70px 0;
+    padding: 60px 0;
+    margin-bottom: 50px;
     text-align: center;
     background-color: whitesmoke;
-    box-shadow: 0 10px 20px rgba(223, 79, 79, 0.19), 0 6px 6px rgba(15, 79, 175, 0.23);
+    box-shadow: 0 10px 20px rgba(212, 99, 99, 0.397), 0 6px 6px rgba(57, 107, 179, 0.418);
 }
 
 input{
@@ -41,13 +42,7 @@ input{
 .creator{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    margin: 27px;
+    font-weight: 400;
+    height: 15px;
     font-style: italic;
-}
-
-@media (max-height: 400px) {
-    .creator{
-        margin: 70px;
-    }
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Calculator</title>
+      <link rel="stylesheet" href="Calculator.css" />
+    </head>
+
+    <body>
+      <br>
+      <div class="Calculator">
+        <div class="output"></div>
+          <input type="text" id="outputtext" placeholder="0">
+          <div class="keyboard">
+            <!-- Row 1-->
+            <button class="clear" onclick="Clear()">C</button>
+            <button class="delete" onclick="Delete()">DEL</button>
+            <button class="percent" onclick="display('%')">MOD</button>
+            <button class="operator" onclick="display('/')">/</button>
+
+            <!-- Row 2-->
+            <button class="number" onclick="display(7)">7</button>
+            <button class="number" onclick="display(8)">8</button>
+            <button class="number" onclick="display(9)">9</button>
+            <button class="operator" onclick="display('*')">*</button>
+
+            <!-- Row 3-->
+            <button class="number" onclick="display(4)">4</button>
+            <button class="number" onclick="display(5)">5</button>
+            <button class="number" onclick="display(6)">6</button>
+            <button class="operator" onclick="display('-')">-</button>
+
+            <!-- Row 4-->
+            <button class="number" onclick="display(1)">1</button>
+            <button class="number" onclick="display(2)">2</button>
+            <button class="number" onclick="display(3)">3</button>
+            <button class="operator" onclick="display('+')">+</button>
+
+            <!-- Row 5-->
+            <button class="decimal" onclick="display('.')">.</button>
+            <button class="number" onclick="display(0)">0</button>
+            <button class="number" onclick="display('**')">^</button>
+            <button class="equal" onclick="Result()">=</button>
+          </div>
+        </div>
+      </div>
+      <p class="creator" onmouseover= "changeText(this,'5-28-2022')" onmouseout="changeText(this,'Creator: Jerry L.')">Creator: Jerry L.</p>
+    </body>
+  </html>
+<script src="Calculator.js"></script>
+</html>

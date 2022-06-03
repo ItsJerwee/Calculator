@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(130deg, #CCFFFF, #FFCCCC);
+    font-family: 'Dosis', sans-serif;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Calculator{
+    margin: auto ;
+    margin-top: 50px;
+    width: 335px;
+    height: 390px;
+    border-radius: 25px;
+    padding: 60px 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px rgb(245, 141, 141), 0 6px 6px rgb(4, 53, 122);
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+}
+
+.delete, .clear, .decimal, .percent, .number, .operator, .sign, .decimal, .equal{
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(253, 253, 253);
+    font-size: 15px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.delete:active, .clear:active, .decimal:active, .percent:active, .number:active, .equal:active, .operator:active{
+    font-size: 25px;
+}
+
+.delete:hover, .clear:hover, .decimal:hover, .percent:hover, .number:hover, .equal:hover, .operator:hover{
+    background-color: rgb(168, 168, 168);
+}
+
+.creator{
+    text-align: center;
+    font-weight: 400;
+    margin: 20px;
+    font-style: italic;
+}

@@ -1,14 +1,17 @@
 body{
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    background: linear-gradient(130deg, #CCFFFF, #FFCCCC);
+    font-family: 'Dosis', sans-serif;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .Calculator{
     margin: auto ;
+    margin-top: 50px;
     width: 335px;
     height: 390px;
     border-radius: 25px;
-    padding: 60px 0;
-    margin-bottom: 40px;
+    padding: 60px 10px;
     text-align: center;
     background-color: whitesmoke;
     box-shadow: 0 10px 20px rgb(245, 141, 141), 0 6px 6px rgb(4, 53, 122);
@@ -40,10 +43,13 @@ input{
     font-size: 25px;
 }
 
+.delete:hover, .clear:hover, .decimal:hover, .percent:hover, .number:hover, .equal:hover, .operator:hover{
+    background-color: rgb(168, 168, 168);
+}
+
 .creator{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    height: 500px;
+    margin: 20px;
     font-style: italic;
 }

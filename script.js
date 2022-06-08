@@ -15,13 +15,13 @@ function Delete(){
   result.value=result.value.slice(0,-1);
 }
 
-/* invald message is sent if invalid equation occurs */
+/* invalid message is sent if invalid equation occurs */
 let Result=()=>{
    try{
     result.value=eval(result.value)
    }
    catch(err){
-     alert("Invalid Input!");
+     result.value = "Invalid Input";
    }
 }
 
